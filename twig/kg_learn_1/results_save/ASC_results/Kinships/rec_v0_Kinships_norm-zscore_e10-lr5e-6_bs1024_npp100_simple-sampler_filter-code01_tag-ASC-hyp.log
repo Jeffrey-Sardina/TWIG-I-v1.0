@@ -1,0 +1,59 @@
+['run_exp.py', '0', 'Kinships', '10', '5e-6', 'zscore', '1024', '100', '0', '1', 'simple', '1']
+loading NN
+done loading NN
+loading dataset
+Kinships
+X_p: torch.Size([8544, 37])
+X_p: torch.Size([1074, 37])
+X_p: torch.Size([1068, 37])
+done loading dataset
+loading filters
+done loading filters
+loading negative samplers
+loading triple features from cache
+loading precalculated corruptions from cache
+done loading negative samplers
+Running in hyperparameter evaluation mode
+TWIG will be evaulaited on the validation set
+and will not be tested each epoch on the validation set
+running training and eval
+TWIG_KGL_v0(
+  (linear_struct_1): Linear(in_features=22, out_features=10, bias=True)
+  (relu_1): ReLU()
+  (dropout_1): Dropout(p=0.01, inplace=False)
+  (linear_struct_2): Linear(in_features=10, out_features=10, bias=True)
+  (relu_2): ReLU()
+  (dropout_2): Dropout(p=0.01, inplace=False)
+  (linear_final): Linear(in_features=10, out_features=1, bias=True)
+  (sigmoid_final): Sigmoid()
+)
+REC: Training with epochs = 10
+Epoch 1 -- batch 0 / 9 loss: 0.1252882182598114
+Epoch 2 -- batch 0 / 9 loss: 0.1306341141462326
+Epoch 3 -- batch 0 / 9 loss: 0.12595272064208984
+Epoch 4 -- batch 0 / 9 loss: 0.1230192556977272
+Epoch 5 -- batch 0 / 9 loss: 0.12507836520671844
+NOT Saving checkpoint at epoch 5
+Epoch 6 -- batch 0 / 9 loss: 0.13107258081436157
+Epoch 7 -- batch 0 / 9 loss: 0.12352906912565231
+Epoch 8 -- batch 0 / 9 loss: 0.11988238990306854
+Epoch 9 -- batch 0 / 9 loss: 0.1190137043595314
+Epoch 10 -- batch 0 / 9 loss: 0.11911778151988983
+NOT Saving checkpoint at epoch 10
+Done Training!
+
+==================================
+Testing (cite this): dataloader for dataset Kinships
+Testing (cite this): batch 0 / 2
+ranks: tensor([197., 188., 193.,  ..., 180., 183.,  94.])
+mr: 143.03746032714844
+mrr: 0.0845130905508995
+h1: 0.06835205852985382
+h3: 0.07584269344806671
+h5: 0.08239700645208359
+h10: 0.10580524057149887
+==================================
+
+Done Testing!
+done with training and eval
+Experiments took 64 seconds
