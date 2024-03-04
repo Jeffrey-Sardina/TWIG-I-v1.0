@@ -1,0 +1,13 @@
+Best run IDs (2.1 only)
+
+Kinships
+========
+ComplEx: 810
+DistMult: 1057
+TransE: 985
+
+UMLS
+====
+ComplEx: 814
+DistMult: 264
+TransE: 317

@@ -1,0 +1,6 @@
+.vscode/
+*.gz
+docker_up.log
+*.pyc
+*.pt
+*.pkl
