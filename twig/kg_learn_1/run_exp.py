@@ -45,11 +45,6 @@ def load_nn(version):
             n_global=n_global,
             n_local=n_local
         )
-    elif version == 1:
-        model = TWIG_KGL_v1(
-            n_global=n_global,
-            n_local=n_local
-        )
     else:
         assert False, f"Invald NN version given: {version}"
     print("done loading NN")
