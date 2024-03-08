@@ -1,3 +1,7 @@
+NOTE: This code has ab error that distorts some results. This has been fixed in an internal dev version. Until then, do not cite / use this code.
+
+This notice will be updated once that is fixed.
+
 # TWIG-I
 TWIG-I (Topologically-Weighted Intelligence Generation for Inference) is an evolution of TWIG (https://github.com/Jeffrey-Sardina/TWIG-release-1.0) that performs link prediction, on one KG or across multiple KGs, with a single model and a tiny fraction of the parameters required by traditional KGEs. Results also indicate it can achieve reliably higher performance; however, in its current for, it struggles to scale to larger datasets.
 
