@@ -165,11 +165,11 @@ What versions of Python / PyTorch / etc does thi work on? Short answer -- anythi
 - torch 2.0.1 with Cuda cu11
 - pykeen 1.10.1
 
-Will TWIG-I be maintained? Yes! At least for a time, as this is under active deleopment as a part of Jeffrey's PhD thesis.
+Will TWIG-I be maintained? Yes -- but not in this repo. This is a static repo to allow reproducibility of experiment results. The active, maintained version of TWIG-I can be found at: https://github.com/Jeffrey-Sardina/TWIG-I
 
-Are future TWIG-I releases planned? Sort of. I do plan to keep developing TWIG-I, but am unsure what for that will take, what opportunities will open up as a result, etc. Future releases will likely have increased research tooling, such as graph structure amalysers and enhanced ablation study capacity.
+Are future TWIG-I releases planned? Sort of. I do plan to keep developing TWIG-I, but am unsure what for that will take, what opportunities will open up as a result, etc. Future releases will likely have increased research tooling, such as graph structure amalysers and enhanced ablation study capacity. Note that this is a static repo to allow reproducibility of experiment results. The active, maintained version of TWIG-I can be found at: https://github.com/Jeffrey-Sardina/TWIG-I
 
-Can I help contribute to TWIG-I? Definitely -- that's whhy it's open source! We don't have a contributor policy, however -- at least, no more than "try to match the style of the existing code". I also don't have automated testing, which means merging will be slow to make sure everything still works mantually. If you have an idea you have implemented, raise a PR and we can take it from there!
+Can I help contribute to TWIG-I? Definitely -- see the development repo at: https://github.com/Jeffrey-Sardina/TWIG-I
 
 Can I use TWIG-I in my research? Definitely! Just make sure to cite it (see the citation below).
 
