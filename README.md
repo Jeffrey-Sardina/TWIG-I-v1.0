@@ -1,6 +1,9 @@
 # TWIG-I
 Jeffrey Seathrún Sardina and Alok Debnath
 
+## Notes on this Version
+This is a static version used so I can present the exact code run to produce results for the SEMANTiCS-2024 conference. If you are looking for the maintained, much better documented, and pip-installable version of TWIG-I (which is still mathematically equivalent to this version) please see: https://github.com/Jeffrey-Sardina/TWIG-I
+
 ## What is TWIG-I?
 Topologically-Weighted Intelligence Generation for Inference (TWIG-I) is an embedding-free, graph-structure-based link predictor build to work on knowledge graphs. To put it simply, **TWIG-I models the link prediction task as a regression task**. The input features are hand-crafted graph structure features, and the output value is a plausibility score for each triple.
 
